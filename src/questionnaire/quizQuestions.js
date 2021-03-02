@@ -1,86 +1,118 @@
+const ROLES = {
+    "JUNIOR": "Junior Software Engineer",
+    "NORMAL": "Software Engineer",
+    "SENIOR": "Senior Software Engineer",
+    "PRINCIPLE": "Principal Software Engineer",
+    "STAFF": "Staff Software Engineer"
+}
+
 var quizQuestions = [
     {
-        question: "What franchise would you rather play a game from?",
+        question: "When it’s unclear why you need to build a certain capability, what is your preference?",
         answers: [
             {
-                type: "Microsoft",
-                content: "Halo"
+                content: "As long as I understand the task, it’s fine for me",
+                type: ROLES.JUNIOR
             },
             {
-                type: "Nintendo",
-                content: "Pokemon"
+                content: "Ask my manager, this is their job",
+                type: ROLES.NORMAL
             },
             {
-                type: "Sony",
-                content: "Uncharted"
+                content: "I feel comfortable talking with various people (product, sales, etc.) and figure out the answer",
+                type: ROLES.SENIOR
+            },
+            {
+                content: "I’m usually the one who figure this thing out for others. I cannot work without it.",
+                type: ROLES.PRINCIPLE
             }
         ]
     },
     {
-        question: "Which console would you prefer to play with friends?",
+        question: "When you lead projects, how big are they?",
         answers: [
             {
-                type: "Microsoft",
-                content: "X-Box"
+                content: "I help with other projects, still didn’t lead one myself",
+                type: ROLES.JUNIOR
             },
             {
-                type: "Nintendo",
-                content: "Nintendo 64"
+                content: "I’m working on them myself, for a few weeks",
+                type: ROLES.NORMAL
             },
             {
-                type: "Sony",
-                content: "Playstation 1"
+                content: "Me and 2-3 more people from my team, for a few weeks to a few months",
+                type: ROLES.SENIOR
+            },
+            {
+                content: "Me and 5-15 people from various teams, for a few weeks to a few months",
+                type: ROLES.PRINCIPLE
+            },
+            {
+                content: "I lead some of the biggest initiatives in the company, having at least 10 people working with me for more than a year",
+                type: ROLES.STAFF
             }
         ]
     },
     {
-        question: "Which of these racing franchises would you prefer to play a game from?",
+        question: "Do you know well the company’s goals for the year and why these goals were chosen?",
         answers: [
             {
-                type: "Microsoft",
-                content: "Forza"
+                content: "Not really. I remember some numbers but not more than that. I don’t think it’s needed for me to work.",
+                type: ROLES.JUNIOR
             },
             {
-                type: "Nintendo",
-                content: "Mario Kart"
+                content: "Yes, I know the goals well. I don’t know the rational for picking them",
+                type: ROLES.NORMAL
             },
             {
-                type: "Sony",
-                content: "Gran Turismo"
+                content: "I can explain the goals and why they’re critical for our success to other teammates\n",
+                type: ROLES.SENIOR
+            },
+            {
+                content: "I use company’s goals to attract talent, use it during interviews and help onboarding new teammates\n",
+                type: ROLES.PRINCIPLE
             }
         ]
     },
     {
-        question: "Which of these games do you think is best?",
+        question: "When others usually hear from you?",
         answers: [
             {
-                type: "Microsoft",
-                content: "BioShock"
+                content: "I update my manager on my progress.",
+                type: ROLES.JUNIOR
             },
             {
-                type: "Nintendo",
-                content: "The Legend of Zelda: Ocarina of Time"
+                content: "Mostly within my team. I provide context on my work.",
+                type: ROLES.NORMAL
             },
             {
-                type: "Sony",
-                content: "Final Fantasy VII"
+                content: "I tend to update on bigger forums around the projects I lead, or things I did to make others’ life easier",
+                type: ROLES.SENIOR
+            },
+            {
+                content: "It’s very common to hear from me on various projects and initiatives on email, Slack and f2f. Many people outside of my team knows my work.",
+                type: ROLES.PRINCIPLE
             }
         ]
     },
     {
-        question: "What console would you prefer to own?",
+        question: "When others working on a big project (>6 months effort), when are they coming to consult with you?",
         answers: [
             {
-                type: "Microsoft",
-                content: "X-Box One"
+                content: "Very rarely. Maybe if it’s around code I wrote.",
+                type: ROLES.JUNIOR
             },
             {
-                type: "Nintendo",
-                content: "Wii U"
+                content: "Here and there. I do have some expertise in specific types of systems or solutions, that people want o leverage my knowledge",
+                type: ROLES.NORMAL
             },
             {
-                type: "Sony",
-                content: "Playstation 4"
+                content: "People consult with me on big projects where I have context around - from making sure requirements are solid to the solutions and tradeoffs they have in mind",
+                type: ROLES.SENIOR
+            },
+            {
+                content: "People consult with me on everything they feel is a big challenge. Even if I don’t have the context, they feel comfortable sharing and getting my perspective.",
+                type: ROLES.PRINCIPLE
             }
         ]
     }

@@ -8,7 +8,7 @@ import Questionnaire from "./questionnaire/questionnaire";
 
 // PAGE RELATED STUFF
 import {
-    BrowserRouter as Router,
+    HashRouter as Router,
     Switch,
     Route,
     Link

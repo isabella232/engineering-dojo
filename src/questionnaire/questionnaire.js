@@ -121,9 +121,7 @@ export class Questionnaire extends Component{
     render() {
         return (
             <div className="questionnaire">
-                <div className="questionnaire-group">
-                    <h2>React Quiz</h2>
-                </div>
+                <div className="questionnaire-group" />
                 {this.state.result ? this.renderResult() : this.renderQuiz()}
             </div>
         );

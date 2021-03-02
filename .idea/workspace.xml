@@ -2,28 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c4df50e-4968-41cc-9716-729e0f40ed05" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/icon-check.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/quiz.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/main.8c8b27cf.chunk.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/main.8c8b27cf.chunk.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/2.cec39c0a.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/2.cec39c0a.chunk.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/2.cec39c0a.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/3.47ea0f45.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/3.47ea0f45.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.e0d4bb7d.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.e0d4bb7d.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/runtime-main.5d1f503f.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/runtime-main.5d1f503f.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/logo.6ce24c58.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Quiz.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Quiz.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Result.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Result.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/questionnaire/questionnaire.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/questionnaire/questionnaire.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/questionnaire/quizQuestions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/questionnaire/quizQuestions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.9039a125.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.9039a125.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/2.c77ab965.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/2.c77ab965.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/2.c77ab965.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.9be5c0e2.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.9be5c0e2.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/runtime-main.77213b7a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/runtime-main.77213b7a.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +81,7 @@
       <option name="presentableId" value="Default" />
       <updated>1614684014344</updated>
       <workItem from="1614684015835" duration="25000" />
-      <workItem from="1614684046234" duration="9461000" />
+      <workItem from="1614684046234" duration="10781000" />
     </task>
     <servers />
   </component>

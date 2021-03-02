@@ -1,6 +1,6 @@
 {
   "name": "dojo",
-  "homepage": "https://forter.dev/engineering-dojo/",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

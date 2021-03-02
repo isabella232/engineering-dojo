@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/engineering-dojo/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/engineering-dojo/static/js/main.e0d4bb7d.chunk.js",
+    "main.js.map": "/engineering-dojo/static/js/main.e0d4bb7d.chunk.js.map",
+    "runtime-main.js": "/engineering-dojo/static/js/runtime-main.5d1f503f.js",
+    "runtime-main.js.map": "/engineering-dojo/static/js/runtime-main.5d1f503f.js.map",
+    "static/js/2.cec39c0a.chunk.js": "/engineering-dojo/static/js/2.cec39c0a.chunk.js",
+    "static/js/2.cec39c0a.chunk.js.map": "/engineering-dojo/static/js/2.cec39c0a.chunk.js.map",
+    "static/js/3.47ea0f45.chunk.js": "/engineering-dojo/static/js/3.47ea0f45.chunk.js",
+    "static/js/3.47ea0f45.chunk.js.map": "/engineering-dojo/static/js/3.47ea0f45.chunk.js.map",
+    "index.html": "/engineering-dojo/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/engineering-dojo/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.cec39c0a.chunk.js.LICENSE.txt": "/engineering-dojo/static/js/2.cec39c0a.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/engineering-dojo/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5d1f503f.js",
+    "static/js/2.cec39c0a.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.e0d4bb7d.chunk.js"
+  ]
+}

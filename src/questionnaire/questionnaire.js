@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import quizQuestions from './quizQuestions';
+import {quizQuestions, ROLES} from './quizQuestions';
 
 import Quiz from '../components/Quiz';
 import Result from '../components/Result';
@@ -86,19 +86,36 @@ export class Questionnaire extends Component{
 
     getResults() {
         const answersCount = this.state.answersCount;
-        const answersCountKeys = Object.keys(answersCount);
-        const answersCountValues = answersCountKeys.map(key => answersCount[key]);
-        const maxAnswerCount = Math.max.apply(null, answersCountValues);
+        const rolesChosen = Object.keys(answersCount)
 
-        return answersCountKeys.filter(key => answersCount[key] === maxAnswerCount);
+        const allEqual = Object.keys(answersCount).length === 1;
+        if (allEqual){
+            const roleChosen = Object.keys(answersCount)[0];
+            if (roleChosen === ROLES.JUNIOR){
+                return ROLES.JUNIOR;
+            }
+        }
+
+        if (rolesChosen.length === 2 && rolesChosen.includes(ROLES.JUNIOR)  && rolesChosen.includes(ROLES.NORMAL)){
+            return ROLES.NORMAL;
+        }
+
+        const notAChild = rolesChosen.every(role => ![ROLES.JUNIOR, ROLES.NORMAL].includes(role));
+        if (notAChild){
+            return ROLES.STAFF;
+        }
+
+        const superUnChild = rolesChosen.every(role => ![ROLES.JUNIOR, ROLES.NORMAL, ROLES.SENIOR].includes(role));
+        if (superUnChild){
+            return ROLES.PRINCIPLE;
+        }
+
+
+        return ROLES.SENIOR;
     }
 
     setResults(result) {
-        if (result.length === 1) {
-            this.setState({ result: result[0] });
-        } else {
-            this.setState({ result: 'Undetermined' });
-        }
+        this.setState({ result });
     }
 
     renderQuiz() {

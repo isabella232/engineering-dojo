@@ -4,10 +4,8 @@ import {
 
 export default function Home(){
     return <>
-            <h1>We all want to get better, right?</h1>
-            <h2>But "getting better" is so subjective. How can one even know or tell others what better is? </h2>
-            <h2> Instead, we tried to be helpful </h2>
-
+            <h1>You strive to get better, don't you?</h1>
+            <h2>But "getting better" is so subjective. How can one even know or tell others what better is? Instead, we tried to be helpful. </h2>
             <h2>We’ll share with you ideas, concepts, frameworks and resources that can help you level up as a Software Engineer. </h2>
 
             <div className="call-to-action">

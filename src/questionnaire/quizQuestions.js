@@ -1,4 +1,4 @@
-const ROLES = {
+export const ROLES = {
     "JUNIOR": "Junior Software Engineer",
     "NORMAL": "Software Engineer",
     "SENIOR": "Senior Software Engineer",
@@ -6,7 +6,7 @@ const ROLES = {
     "STAFF": "Staff Software Engineer"
 }
 
-var quizQuestions = [
+export var quizQuestions = [
     {
         question: "When it’s unclear why you need to build a certain capability, what is your preference?",
         answers: [
@@ -118,4 +118,4 @@ var quizQuestions = [
     }
 ];
 
-export default quizQuestions;
+export default {quizQuestions, ROLES};

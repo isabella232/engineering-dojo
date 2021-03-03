@@ -18,7 +18,13 @@ function App() {
   return (
       <>
           <div className="App">
-              <div className="background"/>
+              <div id="stripes">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+              </div>
               <div className="content">
               <Router>
                   <div>

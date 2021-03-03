@@ -300,58 +300,85 @@ Ladder:
     Ladder:
       - Dan 1:
           Responsibilities:
+            - Seek to understand what the company's product actually solves and how your customers interact with it
+            - Understand the high-level roles of the different departments in the R&D
+            - Understand and be able explain to others the business impact of your current task (e.g. during daily/weekly)
           Examples:
+            - Complete your onboarding, including around non-engineering departments, and be able to explain the concepts to others (e.g. your manager)
+            - Ask questions about how different departments in the company contribute to the product
           Anti-Patterns:
-            - anti-pattern:
-              remedy:
-            - anti-pattern:
-              remedy:
-            - anti-pattern:
-              remedy:
+            - anti-pattern: Having a "code-monkey" mindset — knowing how to deliver features but not being able to explain or not caring why they're worth doing
+              remedy: You'll find your work much more satisfying and meaningful if you're able to articulate the business needs of the features you're working on
+            - anti-pattern: Looking "down" on other departments (outside of Engineering) — not understanding their work, thus discounting their needs/pains/contributions
+              remedy: Having strong engineers does not mean having a successful company; trust that the same people that collected great engineers also put thought into hiring amazing people in other departments
           Resources:
       - Dan 2:
           Responsibilities:
+            - Understand the role of the team in the larger business context
+            - Initiate ideas affecting the team, explaining their urgency or priority with business justifications
+            - Begin understanding the pains of other teams around you (immediate internal customers)
+            - Have a basic understanding of where the company fits in its domain in the world — what's its complete offering, its differentiators vs. competitors, etc.
+            - Deepen your understanding of the high level roles of the teams in your department
           Examples:
+            - Can clearly explain to others (e.g. new employees) roles of teams in other departments
+            - Know, at least on a high level, how your team's systems impact the business (e.g. enabling others, directly affecting offering)
           Anti-Patterns:
-            - anti-pattern:
-              remedy:
-            - anti-pattern:
-              remedy:
-            - anti-pattern:
-              remedy:
+            - anti-pattern: Promoting ideas with purely technical merit, discounting business justifications
+              remedy: Your superiors aren't likely to greenlight such projects, which will leave you frustrated. Start from business needs, not tech; you can always choose cool tech once you know what the needs are (if applicable)
+            - anti-pattern: Not considering or verifying costs when suggesting new ideas
+              remedy: Cost is one of the first factors experienced devs and managers consider, so before advancing a new idea, make sure you have a rough idea of how much it'll cost
           Resources:
       - Dan 3:
           Responsibilities:
+            - Understand well the pains of other teams around you (first circle / immediate internal customers)
+            - Proactively seek to talk with internal customers to understand their pains and how the team can serve them better
+            - Be able to clearly document and share your insights and suggestions from talking with other teams, so the team can learn from it and initiate ideas around it - some will be solved within the team, some will be given as feedback to other teams
+            - Take an interest in your company's business performance — understand the ARR, how margins affect the business, knows the big logos the company sold to, etc.
+            - Understand the roles of all the departments in the company, with focus on the sales pipeline
+            - Take costs, security and other business impacting aspects into consideration (e.g. when suggesting new initiatives, as part of DRs, etc.)
           Examples:
+            - Have a good understanding of your team's part of the sales cycle
+            - Be able to explain (at a high level) the full cycle of selling your company's product to a customer — marketing (generating a lead), pre-sale, sale, onboarding (CS/Ops) and serving the customer for the long run
+            - Share a document with the team, and other relevant teams, around information you got from your internal customers. Including a well-crafted summary of the biggest pains (with priorities), relevant suggestions (with high level cost/estimation and gain from that), and basic priorities as you see fit (with business justification)
           Anti-Patterns:
-            - anti-pattern:
-              remedy:
-            - anti-pattern:
-              remedy:
-            - anti-pattern:
-              remedy:
+            - anti-pattern: Not spending enough time to document proper pains & suggestions, keeping it all in your head and relying only on your memory
+              remedy: Others won't be able to act to whatever you keep in your head; documenting and sharing your insights is a crucial part of having them
+            - anti-pattern: Spending too much of your time focusing on the team and the team's needs, instead of trying to increase your impact circle with other teams around you
+              remedy: One of the greatest benefits that come from increasing your understanding of the business, is the ability to increase the radius of your impact
           Resources:
       - Dan 4:
           Responsibilities:
+            - Understand the yearly goals and main projects of many of the group's teams, including their business impact
+            - Be aware of yearly organizational growth (e.g. new headcount) within the group, aimed at supporting business needs
+            - Be able to clearly articulate and explain to others (e.g. new or less experienced ICs) the motivation and business needs of your main systems
+            - Be able to lead one of the main pillars in the group and become a point-of-contact for it when talking with others (e.g. product offering, scale, costs, security, precision, etc.)
+            - Be continually involved in the team's backlog grooming — help the direct manager to balance tech debt, areas worth to invest in, areas where we should de-risk/mitigate potential threats, etc.
           Examples:
+            - Lead the group's FinOps effort — tracking expenses, creating visibility, suggesting new ideas to cut costs, getting the buy-in, executing, reporting progress to the entire group, etc.
+            - Relevant VPs/directors in the org feel the need to invite you to relevant meetings, instead of inviting your direct manager. The IC (you) becomes the point-of-contact, and managers aren't needed in every conversation
+            - Take an active part in quarterly planning — suggest areas that are worth investing in, helping with high level estimations, consulting on priorities (with good reasoning behind them)
           Anti-Patterns:
-            - anti-pattern:
-              remedy:
-            - anti-pattern:
-              remedy:
-            - anti-pattern:
-              remedy:
+            - anti-pattern: Letting things live in a "limbo" for complicated domains (where ownership is a bit fluid). Being passive or unclear about time estimations, or making excuses on why we've reached this state
+              remedy: As they say, "with great power comes great responsibility". Consider stepping up and taking ownership of domains that other aren't willing to
+            - anti-pattern: Not creating momentum in areas you lead - waiting for someone else to pick it up for you (e.g. your manager)
+              remedy: Being senior enough to lead an area implies trust from your manager. They need to know that you can be relied upon. Prove them right.
+            - anti-pattern: Acting as an owner (design & decision making) but avoiding the responsibility that comes with it (i.e. continuously supporting and pushing it forward)
+              remedy: Many engineers enjoy hacking, but don't enjoy maintenance as much. Often, though, a less flashy but well maintained product is much more valuable than an exciting new one that's hacked together but then left half finished
           Resources:
       - Dan 5:
           Responsibilities:
+            - Understand the yearly business goals, using those to define the main projects the group should invest in during the year
+            - As a leader of a main effort in the company, can represent it to management and outside of the company (customers, press/media, conferences, etc.)
+            - Be continuously involved in the group's backlog grooming — help various managers to balance tech debt, areas worth investing in, areas where we should de-risk/mitigate potential threats, etc.
+            - Provide feedback to extended managements (VP level and above) on things that might impose risk, ideas for better offering/security/scale, etc. Has a seat at the table when it comes to such conversations
           Examples:
+            - Put healthy pressure on management (VP level and above) to promote big ideas that are strategic to the company
+            - Be involved in quarterly planning of the group, relying on business needs. Able consult multiple Team Leaders
           Anti-Patterns:
-            - anti-pattern:
-              remedy:
-            - anti-pattern:
-              remedy:
-            - anti-pattern:
-              remedy:
+            - anti-pattern: Struggling to build good working relationships with the Team and Tech Leaders in the group, impacting their ability to initiate cross-team projects
+              remedy: Good relationships often matter more than technical know-how. Try to cultivate, it not friendship, then at least good working relationships with the other leading devs and managers in your area
+            - anti-pattern: Being unable to translate your vast tech knowledge to the managerial level, making it harder for management to understand your value or why you should have a seat at the table
+              remedy: Clear articulation will often get you farther when communicating with non-technical management than the technical knowledge itself. You need to cultivate this ability in you, or you won't be able to get buy-in on the really large/important projects
           Resources:
   Organizational Impact:
     Topics:

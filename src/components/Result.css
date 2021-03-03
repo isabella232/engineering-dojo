@@ -1,0 +1,53 @@
+.result-end h4{
+    font-size: 18px;
+    margin: 30px 0 70px;
+}
+
+.result-end h3{
+    font-size: 24px;
+    margin: 30px 0 70px;
+}
+
+.result-end h2{
+    font-size: 30px;
+}
+
+.squircles{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+}
+
+.squircle{
+    display: grid;
+    place-items: center;
+    gap: 10px;
+    position: relative;
+    width: 200px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.squircle:hover {
+    filter: brightness(0.95);
+}
+
+.squircle svg{
+    position: absolute;
+    top: 50px;
+    left: 75px;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+.squircles .squircle span{
+    font-size: 13px;
+    color: black;
+    font-weight: 700;
+    text-shadow: 0px 0px 20px white, 0px 0px 10px white;
+}

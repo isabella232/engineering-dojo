@@ -5,6 +5,7 @@ import './App.css';
 // PAGES
 import Home from './home/home';
 import Questionnaire from "./questionnaire/questionnaire";
+import Results from './results/results';
 
 // PAGE RELATED STUFF
 import {
@@ -26,16 +27,18 @@ function App() {
                   <span></span>
               </div>
               <div className="content">
-              <Router>
+              <Router exact path="/">
                   <div>
-                      {/* A <Switch> looks through its children <Route>s and
-                    renders the first one that matches the current URL. */}
                       <Switch>
                           <Route path="/questionnaire">
                               <Questionnaire />
                           </Route>
-                          <Route path="/">
+                          <Route exact path="/">
+                              HOME
                               <Home />
+                          </Route>
+                          <Route path="/results/:topic/:level">
+                              <Results />
                           </Route>
                       </Switch>
                   </div>

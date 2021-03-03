@@ -1,8 +1,8 @@
 export const ROLES = {
-    "JUNIOR": "Junior Software Engineer",
+    "ENTRY": "Entry Level Engineer",
     "NORMAL": "Software Engineer",
     "SENIOR": "Senior Software Engineer",
-    "PRINCIPLE": "Principal Software Engineer",
+    "PRINCIPLE": "Principle Software Engineer",
     "STAFF": "Staff Software Engineer"
 }
 
@@ -12,7 +12,7 @@ export var quizQuestions = [
         answers: [
             {
                 content: "As long as I understand the task, it’s fine for me",
-                type: ROLES.JUNIOR
+                type: ROLES.ENTRY
             },
             {
                 content: "Ask my manager, this is their job",
@@ -33,7 +33,7 @@ export var quizQuestions = [
         answers: [
             {
                 content: "I help with other projects, still didn’t lead one myself",
-                type: ROLES.JUNIOR
+                type: ROLES.ENTRY
             },
             {
                 content: "I’m working on them myself, for a few weeks",
@@ -58,7 +58,7 @@ export var quizQuestions = [
         answers: [
             {
                 content: "Not really. I remember some numbers but not more than that. I don’t think it’s needed for me to work.",
-                type: ROLES.JUNIOR
+                type: ROLES.ENTRY
             },
             {
                 content: "Yes, I know the goals well. I don’t know the rational for picking them",
@@ -79,7 +79,7 @@ export var quizQuestions = [
         answers: [
             {
                 content: "I update my manager on my progress.",
-                type: ROLES.JUNIOR
+                type: ROLES.ENTRY
             },
             {
                 content: "Mostly within my team. I provide context on my work.",
@@ -100,7 +100,7 @@ export var quizQuestions = [
         answers: [
             {
                 content: "Very rarely. Maybe if it’s around code I wrote.",
-                type: ROLES.JUNIOR
+                type: ROLES.ENTRY
             },
             {
                 content: "Here and there. I do have some expertise in specific types of systems or solutions, that people want o leverage my knowledge",

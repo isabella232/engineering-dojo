@@ -91,21 +91,21 @@ export class Questionnaire extends Component{
         const allEqual = Object.keys(answersCount).length === 1;
         if (allEqual){
             const roleChosen = Object.keys(answersCount)[0];
-            if (roleChosen === ROLES.JUNIOR){
-                return ROLES.JUNIOR;
+            if (roleChosen === ROLES.ENTRY){
+                return ROLES.ENTRY;
             }
         }
 
-        if (rolesChosen.length === 2 && rolesChosen.includes(ROLES.JUNIOR)  && rolesChosen.includes(ROLES.NORMAL)){
+        if (rolesChosen.length === 2 && rolesChosen.includes(ROLES.ENTRY)  && rolesChosen.includes(ROLES.NORMAL)){
             return ROLES.NORMAL;
         }
 
-        const notAChild = rolesChosen.every(role => ![ROLES.JUNIOR, ROLES.NORMAL].includes(role));
+        const notAChild = rolesChosen.every(role => ![ROLES.ENTRY, ROLES.NORMAL].includes(role));
         if (notAChild){
             return ROLES.STAFF;
         }
 
-        const superUnChild = rolesChosen.every(role => ![ROLES.JUNIOR, ROLES.NORMAL, ROLES.SENIOR].includes(role));
+        const superUnChild = rolesChosen.every(role => ![ROLES.ENTRY, ROLES.NORMAL, ROLES.SENIOR].includes(role));
         if (superUnChild){
             return ROLES.PRINCIPLE;
         }

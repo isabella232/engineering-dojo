@@ -2,17 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c4df50e-4968-41cc-9716-729e0f40ed05" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Result.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/squircle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/results/career_ladder.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/results/results.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/main.73f6090e.chunk.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/main.73f6090e.chunk.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/runtime-main.78528bdb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/runtime-main.78528bdb.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ladder/career_ladder.json" beforeDir="false" afterPath="$PROJECT_DIR$/ladder/career_ladder.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Result.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Result.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/quiz.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/quiz.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/questionnaire/questionnaire.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/questionnaire/questionnaire.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/questionnaire/quizQuestions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/questionnaire/quizQuestions.js" afterDir="false" />
     </list>
@@ -52,11 +52,27 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

@@ -54,10 +54,15 @@ Ladder:
             - anti-pattern: Working on too many things at once, not getting the important stuff done
               remedy: Focus on one thing at a time, and do it well, then move on
           Resources:
-            - Code Complete (Book)
-            - Clean Code (Book)
-            - Refactoring (Book)
-            - Effective Java — Bloch, Joshua (Book)
+            - type: book
+              name: Code Complete
+              link: https://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670
+            - type: book
+              name: Clean Code
+              link: https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882/
+            - type: book
+              name: Refactoring
+              link: https://www.amazon.com/Refactoring-Improving-Existing-Addison-Wesley-Signature/dp/0134757599/
       - Dan 2:
           Responsibilities:
             - Consistently follow best coding practices
@@ -86,6 +91,18 @@ Ladder:
             - anti-pattern: Preferring patching symptoms rather than mitigating the core issue
               remedy: Spend 2x time now to actually fix the problem, to save 10x time later when the bug reappears
           Resources:
+            - type: article
+              name: What can developers learn from being on call?
+              link: https://jvns.ca/blog/2017/06/18/operate-your-software/
+            - type: article
+              name: Excellence Through Code Reviewing
+              link: https://davidbolton.net/blog/2014/06/06/code-reviewing/
+            - type: book
+              name: Release It!
+              link: https://www.amazon.com/Release-Design-Deploy-Production-Ready-Software-dp-1680502395/dp/1680502395/
+            - type: book
+              name: The Effective Engineer
+              link: https://www.amazon.com/Effective-Engineer-Engineering-Disproportionate-Meaningful/dp/0996128107/
       - Dan 3:
           Responsibilities:
             - Be an expert in the company's processes, while also helping to define and improve them
@@ -115,6 +132,18 @@ Ladder:
             - anti-pattern: Preferring local solutions to more global problems, especially if a problem is an obvious issue to multiple teams
               remedy: Always think about the impact you're making; focusing only on your immediate surroundings limits the extent of your potential impact
           Resources:
+            - type: article
+              name: On Being A Senior Engineer
+              link: https://www.kitchensoap.com/2012/10/25/on-being-a-senior-engineer/
+            - type: article
+              name: Design Docs at Google
+              link: https://www.industrialempathy.com/posts/design-docs-at-google/
+            - type: book
+              name: Patterns of Enterprise Application Architecture
+              link: https://www.amazon.com/Patterns-Enterprise-Application-Architecture-Martin/dp/0321127420
+            - type: book
+              name: Working Effectively with Legacy Code
+              link: https://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052/
       - Dan 4:
           Responsibilities:
             - Focus on technical decision making, leading work that affects one or more complex systems and mission-critical areas
@@ -144,6 +173,12 @@ Ladder:
             - anti-pattern: Building solutions that are too “short-term” oriented or not robust enough
               remedy: Spend more time when gather requirements to enrich them, and make the final solution more robust
           Resources:
+            - type: website
+              name: StaffEng
+              link: https://staffeng.com/
+            - type: article
+              name: I Test in Prod
+              link: https://increment.com/testing/i-test-in-production/
       - Dan 5:
           Responsibilities:
             - Persistently debug the toughest issues throughout the entire stack, regardless of the environment; find the root cause or a viable workaround when others are unable to do so
@@ -163,6 +198,15 @@ Ladder:
             - anti-pattern: Focusing only on R&D, without trying to understand the impact on other groups (where applicable)
               remedy: Try to expand your horizons across department lines; your decisions likely affect other departments as well — be mindful of it
           Resources:
+            - type: article
+              name: Undervalued Software Engineering Skills — Writing Well
+              link: https://blog.pragmaticengineer.com/on-writing-well/
+            - type: article
+              name: Some Thoughts on the Principal Role
+              link: https://margint.blog/2020/10/07/some-thoughts-on-the-principal-role/
+            - type: article
+              name: The SaaS CTO Security Checklist
+              link: https://www.sqreen.com/checklists/saas-cto-security-checklist
   Project Leadership:
     Topics:
       - Design reviews
@@ -189,6 +233,12 @@ Ladder:
             - anti-pattern: Failing to report on progress in a timely manner ("going dark")
               remedy: Almost always prefer "push" to "pull" communications; letting others know where you stand on a task is a sure sign of ability and confidence
           Resources:
+            - type: article
+              name: How Context Switching Sabotages Your Productivity
+              link: https://blog.doist.com/context-switching/
+            - type: presentation
+              name: Time Management?
+              link: https://docs.google.com/presentation/d/17K27cBs_dRnW512tJrewP25AHpiUPt7JxUcxjgSxSjs/mobilepresent?slide=id.g1f5fb32513_2_45
       - Dan 2:
           Responsibilities:
             - Work autonomously to estimate and deliver medium to large tasks
@@ -211,6 +261,12 @@ Ladder:
             - anti-pattern: Not communicating progress related to the project
               remedy: Regardless of whether the lack of progress is due to you or others, a steady stream of communications is imperative to let your superiors know where the project stands
           Resources:
+            - type: video
+              name: Scaling Yourself
+              link: https://www.youtube.com/watch?v=FS1mnISoG7U
+            - type: article
+              name: We are All Product Owners! An Impact Guide for Engineers*
+              link: https://medium.com/@erand/we-are-all-product-owners-an-impact-guide-for-engineers-76a2b4342c74
       - Dan 3:
           Responsibilities:
             - Be able to take ownership to lead and deliver large projects (>4w of work) that spans multiple systems, with support from peers
@@ -242,6 +298,12 @@ Ladder:
             - anti-pattern: Not pushing back (and providing alternatives and justifications) on requirements that might add risk, add a lot of time to the project or make it extremely hard to maintain it in the long run
               remedy: Taking ownership of a project means accepting responsibility for it; not pushing back on risky requirements is a sure way to end up with a project you hate supporting
           Resources:
+            - type: article
+              name: Stepping Stones not Milestones
+              link: https://medium.com/@jamesacowling/stepping-stones-not-milestones-e6be0073563f
+            - type: article
+              name: No Kings - How Do You Make Good Decisions Efficiently in a Flat Organization?
+              link: https://doist.com/blog/decision-making-flat-organization/
       - Dan 4:
           Responsibilities:
             - Plan and execute large projects with complex requirements and interdependencies across teams and systems
@@ -268,6 +330,15 @@ Ladder:
             - anti-pattern: Inadvertently suppressing innovation from other engineers (e.g. by giving your own ideas first and loudest, criticizing without truly listening to new ideas or by giving the impression that there is only one right solution to a problem)
               remedy: Be open to others, especially the more junior engineers; remember that you yourself was once a smart junior :)
           Resources:
+            - type: book
+              name: Design it! From programmer to software architect
+              link: https://www.amazon.com/Design-Programmer-Architect-Pragmatic-Programmers/dp/1680502093/
+            - type: book
+              name: Leading without Authority
+              link: https://www.amazon.com/Leading-Without-Authority-Co-Elevation-Collaboration/dp/0525575669/
+            - type: article
+              name: System Design Cheatsheet
+              link: https://gist.github.com/vasanthk/485d1c25737e8e72759f
       - Dan 5:
           Responsibilities:
             - Be able to succinctly explain to management a project's goals, KPIs and milestones, at the right level of abstraction
@@ -288,6 +359,12 @@ Ladder:
             - anti-pattern: Avoiding presenting dilemmas, tradeoffs and taking an active part in making a decision in a timely manner. Waiting for others to make the decision
               remedy: As a principal engineer, you'll often be the most senior person working on a project. No one else will decide on the way forward for you on those occasions
           Resources:
+            - type: article
+              name: Hitting the right level of abstraction
+              link: http://www.tombartel.de//2016/02/15/right-level-of-abstraction/
+            - type: article
+              name: Making Engineering Team Communication Clearer, Faster, Better
+              link: https://review.firstround.com/making-engineering-team-communication-clearer-faster-better
   Business Involvement:
     Topics:
       - Product
@@ -312,6 +389,9 @@ Ladder:
             - anti-pattern: Looking "down" on other departments (outside of Engineering) — not understanding their work, thus discounting their needs/pains/contributions
               remedy: Having strong engineers does not mean having a successful company; trust that the same people that collected great engineers also put thought into hiring amazing people in other departments
           Resources:
+            - type: article
+              name: The Product-Minded Software Engineer
+              link: https://blog.pragmaticengineer.com/the-product-minded-engineer/
       - Dan 2:
           Responsibilities:
             - Understand the role of the team in the larger business context
@@ -328,6 +408,9 @@ Ladder:
             - anti-pattern: Not considering or verifying costs when suggesting new ideas
               remedy: Cost is one of the first factors experienced devs and managers consider, so before advancing a new idea, make sure you have a rough idea of how much it'll cost
           Resources:
+            - type: article
+              name: Product Management Mental Models for Everyone
+              link: https://blackboxofpm.com/product-management-mental-models-for-everyone-31e7828cb50b
       - Dan 3:
           Responsibilities:
             - Understand well the pains of other teams around you (first circle / immediate internal customers)
@@ -346,6 +429,12 @@ Ladder:
             - anti-pattern: Spending too much of your time focusing on the team and the team's needs, instead of trying to increase your impact circle with other teams around you
               remedy: One of the greatest benefits that come from increasing your understanding of the business, is the ability to increase the radius of your impact
           Resources:
+            - type: article
+              name: Executing a Product Sunset
+              link: https://codeascraft.com/2019/02/01/executing-a-sunset/
+            - type: article
+              name: How to Get Buy-in for Reducing Technical Debt
+              link: https://blog.coleadership.com/how-to-get-buy-in-for-reducing-technical-debt/
       - Dan 4:
           Responsibilities:
             - Understand the yearly goals and main projects of many of the group's teams, including their business impact
@@ -365,6 +454,12 @@ Ladder:
             - anti-pattern: Acting as an owner (design & decision making) but avoiding the responsibility that comes with it (i.e. continuously supporting and pushing it forward)
               remedy: Many engineers enjoy hacking, but don't enjoy maintenance as much. Often, though, a less flashy but well maintained product is much more valuable than an exciting new one that's hacked together but then left half finished
           Resources:
+            - type: article
+              name: Your Org Is a Product
+              link: https://capwatkins.com/blog/your-org-is-a-product
+            - type: book
+              name: The Innovator's Dilemma
+              link: https://www.amazon.com/Innovators-Dilemma-Revolutionary-Change-Business/dp/0062060244
       - Dan 5:
           Responsibilities:
             - Understand the yearly business goals, using those to define the main projects the group should invest in during the year
@@ -380,6 +475,12 @@ Ladder:
             - anti-pattern: Being unable to translate your vast tech knowledge to the managerial level, making it harder for management to understand your value or why you should have a seat at the table
               remedy: Clear articulation will often get you farther when communicating with non-technical management than the technical knowledge itself. You need to cultivate this ability in you, or you won't be able to get buy-in on the really large/important projects
           Resources:
+            - type: article
+              name: Scaling a Technology Business is About Unscaling Technical Debt
+              link: https://businessofsoftware.org/2016/06/scaling-a-technology-business-is-about-unscaling-technical-debt-tall-jeff-stack-exchange-bos-usa-2015/
+            - type: book
+              name: Shape Up - Stop Running in Circles and Ship Work that Matters
+              link: https://basecamp.com/shapeup/webbook
   Organizational Impact:
     Topics:
       - Collaboration
@@ -418,6 +519,9 @@ Ladder:
             - anti-pattern: Having a "lone wolf" attitude — not seeking to interact with others, in and outside the team
               remedy: Eventually you'll have to work with others in and outside the team. There's only so far you'll be able to get on your own
           Resources:
+            - type: article
+              name: Having productive conversations when I disagree
+              link: https://twitter.com/b0rk/status/980938694118002688
       - Dan 2:
           Responsibilities:
             - Understand the different roles each individual in the team has. Point to areas with a clear vacuum (lack of owner or knowledge)
@@ -442,6 +546,15 @@ Ladder:
             - anti-pattern: Being difficult to work with due to the "high tax" people need to pay to provide feedback — always arguing instead of asking more questions, not taking responsibility, etc.
               remedy: If you make it difficult to give you feedback, people will stop trying and you'll stagnate. Try seeing feedback not as saying anything about your as a person, but rather as a way to improve in an area you have less visibility in
           Resources:
+            - type: article
+              name: Process is Documented Culture
+              link: https://john.do/process-documented-culture/
+            - type: article
+              name: The Null Process
+              link: https://www.kateheddleston.com/blog/the-null-process
+            - type: article
+              name: How To Give And Receive Effective Feedback
+              link: https://keen.io/blog/how-to-give-and-receive-effective-feedback/
       - Dan 3:
           Responsibilities:
             - Bring your unique talent to improve employee experience (consults with HR / team's manager to look for areas of pain)
@@ -473,6 +586,18 @@ Ladder:
             - anti-pattern: Taking credit for work done in cooperation with others (especially less experienced team members)
               remedy: Always highlight the "team effort" aspect of projects. Remember that you once needed this extra push yourself
           Resources:
+            - type: article
+              name: Being glue
+              link: https://noidea.dog/glue
+            - type: article
+              name: The Hidden Costs That Engineers Ignore
+              link: https://www.effectiveengineer.com/blog/hidden-costs-that-engineers-ignore
+            - type: book
+              name: How to Have Impossible Conversations
+              link: https://www.amazon.com/How-Have-Impossible-Conversations-Practical-dp-0738285323/dp/0738285323/
+            - type: article
+              name: A Guide to Mindful Communication in Code Reviews
+              link: https://kickstarter.engineering/a-guide-to-mindful-communication-in-code-reviews-48aab5282e5e
       - Dan 4:
           Responsibilities:
             - Strive to become a "Bar Raiser" for the team (see resource below)
@@ -506,6 +631,18 @@ Ladder:
             - anti-pattern: Being too quick to rule out ideas or suggestions, without coming up with well-thought alternatives
               remedy: Putting down ideas is easier than coming up with them. When ruling out another person's suggestion, consider the original need that sparked it, and see if you can come up with an alternative
           Resources:
+            - type: article
+              name: Amazon's Current Employees Raise the Bar for New Hires
+              link: https://www.wsj.com/articles/SB10001424052702304753504579285133045398344
+            - type: article
+              name: Lessons from Keith Rabois Essay 5 - How to Become a Magnet for Talent and Assess Talent
+              link: https://delian.io/lessons-5
+            - type: article
+              name: 6 Lessons I learned while implementing technical RFCs as a decision making tool
+              link: https://buriti.ca/6-lessons-i-learned-while-implementing-technical-rfcs-as-a-management-tool-34687dbf46cb
+            - type: article
+              name: Organizational Debt is like Technical debt – but worse
+              link: https://steveblank.com/2015/05/19/organizational-debt-is-like-technical-debt-but-worse/
       - Dan 5:
           Responsibilities:
             - Promote (by getting buy-in) successful processes on the group level (or at least in multiple teams)
@@ -536,3 +673,12 @@ Ladder:
             - anti-pattern: Becoming numb to problems because you’ve been living with them for a long time (or convincing yourself that there’s no real problem there)
               remedy: The fact that "things have always been like this" doesn't make it necessarily a good thing; if you see all new hires voicing their problems with a system/tool/process, take it seriously
           Resources:
+            - type: article
+              name: ‘Give Away Your Legos’ and Other Commandments for Scaling Startups
+              link: https://review.firstround.com/give-away-your-legos-and-other-commandments-for-scaling-startups
+            - type: article
+              name: Lies Enterprise Architects Told Me
+              link: https://www.youtube.com/watch?v=jSqgGdSvQ4E
+            - type: article
+              name: WHAT DOES SPONSORSHIP LOOK LIKE?
+              link: https://larahogan.me/blog/what-sponsorship-looks-like/

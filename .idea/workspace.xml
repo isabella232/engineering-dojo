@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c4df50e-4968-41cc-9716-729e0f40ed05" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Result.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/squircle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/results/career_ladder.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/results/results.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ladder/career_ladder.json" beforeDir="false" afterPath="$PROJECT_DIR$/ladder/career_ladder.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Result.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Result.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/quiz.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/quiz.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/questionnaire/questionnaire.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/questionnaire/questionnaire.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/questionnaire/quizQuestions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/questionnaire/quizQuestions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ladder/career_ladder.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ladder/career_ladder.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

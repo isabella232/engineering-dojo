@@ -397,56 +397,142 @@ Ladder:
     Ladder:
       - Dan 1:
           Responsibilities:
+            - Build a good relationship with others in the team
+            - Maximize feedback from more experienced team members
+            - Proactively try to learn from others — takes advantage of the team members' knowledge and experience
+            - Learn and understand the team's processes and offer help where possible
+            - Adopt a good natured attitude — positive, welcoming, open to learn/listen
+            - Take an active part in the company's events and activities
+            - Be friendly to others and seek to get acquainted with people in and outside your group
+            - Take the time to introduce yourself and talk to others.
           Examples:
+            - Capture in writing insights learned from others (e.g. how a system/process in the team work)
+            - Offer to join the on-call rotation to learn the team's systems
+            - Join company board-game nights, all-hands meetings, etc.
+            - Take special care to get to know someone outside the group.
           Anti-Patterns:
-            - anti-pattern:
-              remedy:
-            - anti-pattern:
-              remedy:
-            - anti-pattern:
-              remedy:
+            - anti-pattern: Being unwilling to join a team's efforts when not part of the task/project
+              remedy: While some project might not be immediately related to your current task, try to learn from others working on it nonetheless
+            - anti-pattern: Asking the same questions or demonstrating a lack of knowledge-gathering due to "laziness" (e.g. not writing things after being taught them)
+              remedy: Asking questions is encouraged; asking the same questions signals an unwillingness to learn. Consider writing down whatever you learn
+            - anti-pattern: Having a "lone wolf" attitude — not seeking to interact with others, in and outside the team
+              remedy: Eventually you'll have to work with others in and outside the team. There's only so far you'll be able to get on your own
           Resources:
       - Dan 2:
           Responsibilities:
+            - Understand the different roles each individual in the team has. Point to areas with a clear vacuum (lack of owner or knowledge)
+            - Onboard new teammates
+            - Take an active part in the team's day-to-day operations (on-call, urgent production issues on Slack, etc.)
+            - Demonstrate concern for the team's well-being; personally try to help people around you
+            - Be able to communicate teammates' issues to their direct manager early
+            - Understand the importance of having hard conversations with your peers, to provide and receive useful and authentic feedback
+            - Ask for feedback from others to continuously improve, both in craft and team work. Not waiting only for DRs/PRs to collect that feedback
+            - Willingly share domain knowledge with other teams
           Examples:
+            - Help to promote the company on social media (in an authentic way)
+            - Spot that one of the team members is not feeling great about their progress or an assignment, try to be friendly and assist with resolving it. If necessary, suggest talking with the direct manager
+            - Try to see if there are emergent patterns in the team, and reflect on those to the direct manager in order to verify we're working on resolving them
+            - Clearly provide useful code-review comments. If spotting a pattern, articulate it f2f, to share higher-level feedback ("it's not only this PR, it's also a pattern that shows...")
+            - Promote a job opening in the company on LinkedIn
           Anti-Patterns:
-            - anti-pattern:
-              remedy:
-            - anti-pattern:
-              remedy:
-            - anti-pattern:
-              remedy:
+            - anti-pattern: Feeling comfortable with not taking a fair share of the team's operations (or any other burden)
+              remedy: Earning the ire of others on the team is never a great way to progress
+            - anti-pattern: Talking behind teammates' backs instead of trying to resolve issues directly
+              remedy: Hashing your difficulties with others might seem scary in the short term, but long-term it's the only way to foster trust and a good relationship
+            - anti-pattern: Being difficult to work with due to the "high tax" people need to pay to provide feedback — always arguing instead of asking more questions, not taking responsibility, etc.
+              remedy: If you make it difficult to give you feedback, people will stop trying and you'll stagnate. Try seeing feedback not as saying anything about your as a person, but rather as a way to improve in an area you have less visibility in
           Resources:
       - Dan 3:
           Responsibilities:
+            - Bring your unique talent to improve employee experience (consults with HR / team's manager to look for areas of pain)
+            - Show willingness to mentor less experienced teammates, either in technical or execution skills (e.g. communication, buy-in, task management etc.)
+            - Sponsor a less experienced team member with their direct manager. Help them to take on more challenging tasks, step outside of their comfort zone and build their confidence
+            - Have a significant role in the team's operational excellence — production issues, knowledge capturing and sharing, providing context to others
+            - Help to create and promote visibility of the team's achievements in the group/company
+            - Be able to act as the team's point of contact in various discussions — have both the EQ, know-how and tech skills to take commitments, figure out open questions and, above all, take ownership (or at least drive to a resolution)
+            - Play a part in the recruiting process — assist with the hiring process, crafting a Job Description, recommending missing skills that the team needs (to manager), etc.
+            - Help to build the company's external brand by leading or assisting the effort (e.g. write a blog post or review one by a team member, provide feedback on others' efforts)
+            - Consistently share information that can enrich others' knowledge and skills
+            - Able and willing to notice and alert relevant engineers/managers to a lack of proper documentation (FAQ, Q&A or more in-depth), or over-reliance people's memories
+            - Reduce organizational memory by committing knowledge to writing, and sharing it with the team/group
           Examples:
+            - Improve the developer experience by creating tools that would reduce tedious work
+            - Come up with hackathon swag for all of the employees
+            - Set up a fun team event
+            - Provide evidence (specific PR links, Asana links, etc.) when trying to sponsor a less experienced team member to their manager
+            - Send an email to the group with an interesting milestone for the team (why it's important, what does it mean for us, etc.) Even better — help someone else to write such an email, so they'll get the credit for it
+            - Review blog posts written by others; recommend topics to write about; write blog posts to cover interesting aspects of the team's challenges
+            - Share interesting blog posts / videos with takeaways worth noticing.
+            - Write posts in the Knowledge Base system on solving problems that many people deal with (e.g. CI issue, or how to use a tool)
+            - Write a System Overview and a Developer Handbook for the systems you own
           Anti-Patterns:
-            - anti-pattern:
-              remedy:
-            - anti-pattern:
-              remedy:
-            - anti-pattern:
-              remedy:
+            - anti-pattern: Being unwilling to bend to the team's needs. Focusing only on the ideal ("pure") solution and neglecting adoption and other considerations
+              remedy: Sometimes legacy/cost/know-how considerations make it better to choose a solution that's less "perfect" in theory, but actually better for the team
+            - anti-pattern: Talking down to people, making them feel insecure
+              remedy: Just don't. People will resent and avoid you if you do that
+            - anti-pattern: Taking credit for work done in cooperation with others (especially less experienced team members)
+              remedy: Always highlight the "team effort" aspect of projects. Remember that you once needed this extra push yourself
           Resources:
       - Dan 4:
           Responsibilities:
+            - Strive to become a "Bar Raiser" for the team (see resource below)
+            - Be able to suggest big changes to the way the team works by collecting feedback from internal customers, or by adopting good practices from other teams
+            - Represent the team's interest in larger discussions
+            - Detect a vacuum that the team can pick up and increase their ownership, and thus impact
+            - Come up with ideas for processes the team needs to add to support future growth or current pains/needs; lead buy-in and adoption
+            - Act as a backup for the team's manager in various discussions and assisting team members
+            - Understand well the team's problems and be able to take ownership by constantly trying to improve them
+            - Have a significant role in recruiting talent. Consistently interview potential hires
+            - Be able to be an evangelist for the company in events
+            - Improve the recruiting process by avoiding waste, reducing false positive (bad hires) and false negatives (hires we should have done)
+            - Show willingness to mentor experienced engineers in the group
+            - Improve or create documentation on important processes (e.g. write Better Nexts, conducting Design or Code Reviews, leading a Project, etc.)
+            - Mentor those that take part in the hiring process, striving to improve the quality of the interview — propose questions to ask, pitfalls to avoid, things to look for in candidates, summarizing an interview, etc.
           Examples:
+            - Improve the team's process and tools for dealing with tickets
+            - Have the maturity to pick up and lead a high-impact project that no one else wants to lead (e.g. due to friction of different opinions, a lot of legacy code, etc.)
+            - Propose tools and processes for using common libraries in the company, even if the owner is in a different team
+            - Take the time to understand and improve processes when internal customers complain about them. Be able to provide some options on the spot, to see if they solve the majority of the problem. Summarize the feedback internally to create visibility and suggest improvements
+            - Suggest questions we should use in different phases of the interview process (including "good answers" and "bad answers")
+            - Prepare home assignments for interviews
+            - Prepare onboarding resources for new or less experienced employees
+            - Provide a well-crafted (concise, clear) document with relevant pains and requirements to someone working on a DR in a related area (e.g. a new tool that the team will use on daily basis, or one that has production implications)
+            - Join a meeting instead of the team's manager. Have the context and confidence to provide answers on the spot; take notes on open questions (and get them resolved quickly); have the trust and confidence of other members in the meeting
           Anti-Patterns:
-            - anti-pattern:
-              remedy:
-            - anti-pattern:
-              remedy:
-            - anti-pattern:
-              remedy:
+            - anti-pattern: Being only concerned with delivery without considering the pains and needs of the team. Not investing time to discuss areas of pain with the team's manager. Not thinking about increasing the team's velocity or happiness
+              remedy: Increasing the team's velocity is often a much better long-term investment of your time then working on your task, since it improves the performance of many people
+            - anti-pattern: Demonstrating immaturity when speaking about the team's process, tools or problems with other teams or people outside of the organization. Being a judge and a (gossip) reporter instead of an owner
+              remedy: While it's ok to acknowledge issues with your team's offering, badmouthing it in front of other teams is a bad idea. Try to understand the pains others raise, offer suggestions/solutions where applicable, and bring the ideas back to the team
+            - anti-pattern: Being too quick to rule out ideas or suggestions, without coming up with well-thought alternatives
+              remedy: Putting down ideas is easier than coming up with them. When ruling out another person's suggestion, consider the original need that sparked it, and see if you can come up with an alternative
           Resources:
       - Dan 5:
           Responsibilities:
+            - Promote (by getting buy-in) successful processes on the group level (or at least in multiple teams)
+            - Create opportunities for others to shine, by helping them identify areas we can afford to innovate and take risks for potentially great rewards
+            - Act as a mentor for other experienced engineers in the team, or recommend them for mentors outside of the team (or even company). Either in a specific skill/technology, or more broadly around how they promote their ideas and projects
+            - Take a proactive role in showcasing the team's strengths and achievements. Be able to represent them within the company (e.g. All Hands, or Extended Management sessions) or outside of it (e.g. conferences, blog posts)
+            - Play an integral part in the recruiting process for multiple teams (as a "Bar Raiser") — have a clear process and be able to provide clear feedback on candidates (biases-aware, strong examples, etc.)
+            - Be able to "sell" the company extremely well to potential hires
+            - Consistently reduce organizational memory by producing high-quality knowledge capturing (docs, lectures, arch topics) around the most critical parts of the system
+            - Act as a role model when promoting new initiatives for technologies or processes — be able to create buy-in, produce high quality content around it and implement the idea end to end
+            - Act as a leader around building an external brand for the company — take time to work on blog posts, lectures, open-source projects or anything else that might help attract talent
           Examples:
+            - Be perceived as a true believer in the company's mission and talent when talking with others outside of the company
+            - Create momentum by writing proper documentation ("documentation spike/blitz") in areas that desperately need it. Write a few docs and convince others to join. Announce it to others and proactively seek feedback on that
+            - Offer an experienced engineer to work together to help them improve a skill
+            - Present a big accomplishment of the team in an All-hands meeting
+            - Contribute to Reading Material for a new Engineer in the company
+            - Affect in a meaningful way the KPI of "did you hear about our company" (i.e. improves the chances that people will say "Yes! I've heard a talk by X or read a blog post by Y that was fantastic..")
           Anti-Patterns:
-            - anti-pattern:
-              remedy:
-            - anti-pattern:
-              remedy:
-            - anti-pattern:
-              remedy:
+            - anti-pattern: Only focusing on the pains of the group, while neglecting the needs of the team, which might lead to resentment by the teammates
+              remedy: While it's a good idea generally to progressively increase the radius of your impact, try not to neglect your team; show that you're still part of it
+            - anti-pattern: Being passive about promoting the team members and achievements to the group or company
+              remedy: At this level, you have a loud void; use it to hype people and achievements to those who might not have the opportunity to hear from the more junior devs
+            - anti-pattern: Creating the impression that big innovative new ideas should only come from Principal Engineers
+              remedy: This is, simply, wrong. Don't discourage more junior devs from suggesting (and, indeed, implementing) big projects
+            - anti-pattern: Constantly failing to get buy-in for new initiatives due to lack of proper reasoning behind them (technical and/or business needs). Relying too much on the title
+              remedy: Being at this level doesn't mean everything you say is automatically accepted by all; you still need to convince people the same way as before
+            - anti-pattern: Becoming numb to problems because you’ve been living with them for a long time (or convincing yourself that there’s no real problem there)
+              remedy: The fact that "things have always been like this" doesn't make it necessarily a good thing; if you see all new hires voicing their problems with a system/tool/process, take it seriously
           Resources:

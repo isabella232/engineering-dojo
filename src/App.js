@@ -34,7 +34,6 @@ function App() {
                               <Questionnaire />
                           </Route>
                           <Route exact path="/">
-                              HOME
                               <Home />
                           </Route>
                           <Route path="/results/:topic/:level">

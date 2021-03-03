@@ -1,5 +1,6 @@
 import resultsJson from './career_ladder.json';
 import {Link, useParams} from "react-router-dom";
+import './results.css'
 
 export default function Results(props){
     const { level, topic } = useParams();
@@ -29,15 +30,28 @@ export default function Results(props){
 
 
 
-    return <>
+    return <div className="results">
+        <h1>{roleToEnglish}</h1>
         {!isLastLevel ? <>
-            <div>{JSON.stringify(antiPatterns)}</div>
-            <div>{JSON.stringify(Examples)}</div>
-            <div>{JSON.stringify(Responsibilities)}</div>
-            <div>{JSON.stringify(Resources)}</div>
+            <h2>Examples</h2>
+            <div className="examples">{Examples.map(example => <div className="example">{example}</div>)}</div>
+
+            <h2>Anti Pattern</h2>
+            <div className="anti-patterns">
+                {antiPatterns.map(({'anti-pattern': antiPattern, remedy}) => <div className="anti-pattern-block">
+                    <div className="anti-pattern">{antiPattern}</div>
+                    <div className="remedy">{remedy}</div>
+                </div>)}
+            </div>
+
+            <h2>Responsibilities</h2>
+            <div className="responsibilities">{Responsibilities.map(responsibility => <div className="responsibility">{responsibility}</div>)}</div>
+            {Resources ? <div>JSON.stringify(Resources)</div> : ''}
+            <Link className="next-level" to={`/results/${topic}/${nextForterLevelToEnglish}`}>NEXT LEVEL</Link>
         </> : <>
 
         HORRAY! YOURE A UNICORN!
+            <img style={{"width": "142px"}} src="https://i.imgur.com/lWbAf2A.png" />
         </>}
-    </>
+    </div>
 }

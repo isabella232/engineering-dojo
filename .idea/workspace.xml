@@ -2,8 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c4df50e-4968-41cc-9716-729e0f40ed05" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/ladder/career_ladder.json" beforeDir="false" afterPath="$PROJECT_DIR$/ladder/career_ladder.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ladder/career_ladder.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ladder/career_ladder.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/results/results.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.2aba2ef2.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.2aba2ef2.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/2.79530bba.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/2.79530bba.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/2.79530bba.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/3.f270f054.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/3.f270f054.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.9702f531.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.9702f531.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/runtime-main.52522c0e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/runtime-main.52522c0e.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/results/career_ladder.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/results/career_ladder.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/results/results.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/results/results.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

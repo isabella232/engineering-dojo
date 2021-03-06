@@ -203,6 +203,9 @@ button:hover{
   .introduction span{
     margin-bottom: 10px !important;
   }
+  .made-with-love{
+    margin-bottom: 50px;
+  }
 }
 
 @media only screen and (max-width: 1065px) {

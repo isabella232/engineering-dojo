@@ -108,7 +108,7 @@ export class Questionnaire extends Component{
 
         const superUnChild = rolesChosen.every(role => ![ROLES.ENTRY, ROLES.NORMAL, ROLES.SENIOR].includes(role));
         if (superUnChild){
-            return ROLES.PRINCIPLE;
+            return ROLES.PRINCIPAL;
         }
 
 

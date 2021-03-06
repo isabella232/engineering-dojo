@@ -2,7 +2,7 @@ export const ROLES = {
     "ENTRY": "Entry Level Engineer",
     "NORMAL": "Software Engineer",
     "SENIOR": "Senior Software Engineer",
-    "PRINCIPLE": "Principle Software Engineer",
+    "PRINCIPAL": "Principal Software Engineer",
     "STAFF": "Staff Software Engineer"
 }
 
@@ -24,7 +24,7 @@ export var quizQuestions = [
             },
             {
                 content: "I’m usually the one who figure these thing out for others. That's how I work",
-                type: ROLES.PRINCIPLE
+                type: ROLES.PRINCIPAL
             }
         ]
     },
@@ -49,7 +49,7 @@ export var quizQuestions = [
             },
             {
                 content: "I lead some of the biggest initiatives in the company, having at least 10 people working with me for more than a year",
-                type: ROLES.PRINCIPLE
+                type: ROLES.PRINCIPAL
             }
         ]
     },
@@ -70,7 +70,7 @@ export var quizQuestions = [
             },
             {
                 content: "I use the company’s goals to attract talent during interviews and while helping to onboard new teammates",
-                type: ROLES.PRINCIPLE
+                type: ROLES.PRINCIPAL
             }
         ]
     },
@@ -91,7 +91,7 @@ export var quizQuestions = [
             },
             {
                 content: "It’s very common to hear from me on various projects and initiatives by email, Slack and f2f. Many people outside of my team know my work.",
-                type: ROLES.PRINCIPLE
+                type: ROLES.PRINCIPAL
             }
         ]
     },
@@ -112,7 +112,7 @@ export var quizQuestions = [
             },
             {
                 content: "People consult with me on everything they feel is a big challenge. Even if I don’t have specific context, they feel comfortable sharing and getting my perspective.",
-                type: ROLES.PRINCIPLE
+                type: ROLES.PRINCIPAL
             }
         ]
     }

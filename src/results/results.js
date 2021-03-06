@@ -78,6 +78,7 @@ export default function Results() {
 
                     <h2>You're Smashing</h2>
                     <h3>You're an absolute unicorn, we've got nothing for you. Congrats.</h3>
+                    <h3>Chuck Norris is still writing this one for you… Visit us soon to see how Principal++ looks like.</h3>
                     <Link to={`/results/${topic}/${oneBeforeLastForterLevelToEnglish}`}><button className="next-level">PREVIOUS LEVEL</button></Link>
                 </div>
             </>}

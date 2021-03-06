@@ -3,6 +3,7 @@ import {quizQuestions, ROLES} from './quizQuestions';
 
 import Quiz from '../components/Quiz';
 import Result from '../components/Result';
+import {Link} from "react-router-dom";
 
 export class Questionnaire extends Component{
     constructor(props) {
@@ -137,9 +138,12 @@ export class Questionnaire extends Component{
 
     render() {
         return (
-            <div className="questionnaire">
-                <div className="questionnaire-group" />
-                {this.state.result ? this.renderResult() : this.renderQuiz()}
+            <div className="quiz">
+                <h1><Link to="/"> Home </Link> <gray>/</gray> Quiz</h1>
+                <div className="questionnaire">
+                    <div className="questionnaire-group" />
+                    {this.state.result ? this.renderResult() : this.renderQuiz()}
+                </div>
             </div>
         );
     }

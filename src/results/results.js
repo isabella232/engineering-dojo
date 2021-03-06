@@ -1,10 +1,16 @@
 import resultsJson from './career_ladder.json';
 import {Link, useParams} from "react-router-dom";
 import './results.css'
+import moonCrash from '../assets/unicorn.png'
+import judo from '../assets/logo.png'
 
-export default function Results(props){
+import nav from '../assets/naviagation.png';
+
+export default function Results(){
+    const smashing = Math.round(Math.random()) === 1 ? judo : moonCrash;
+
     const { level, topic } = useParams();
-    const { Topics, Ladder } = resultsJson["Ladder"][topic];
+    const { Ladder } = resultsJson["Ladder"][topic];
 
     const roleToEnglish = level.split("-").join(" ");
     const [roleToForterRoles] = Object.entries(resultsJson.Meta.Dans).find(item => {
@@ -27,16 +33,25 @@ export default function Results(props){
         isLastLevel = true;
     }
 
-
-
+    const oneBeforeLastForterLevelToEnglish = resultsJson.Meta.Dans["Dan 4"].name.toLowerCase().split(" ").join("-")
 
     return <div className="results">
-        <h1>{roleToEnglish}</h1>
+        <h1><Link to="/">Home </Link> <gray>/</gray> {roleToEnglish}</h1>
         {!isLastLevel ? <>
+
+            <div className="introduction">
+                <span>Here is your very own roadmap which that will help to get to the very next level</span>
+                <img src={nav} />
+            </div>
+
+
             <h2>Examples</h2>
+            <h3>{resultsJson.Meta.Sections.Examples}</h3>
+
             <div className="examples">{Examples.map(example => <div className="example">{example}</div>)}</div>
 
             <h2>Anti Pattern</h2>
+            <h3>{resultsJson.Meta.Sections["Anti-Patterns"]}</h3>
             <div className="anti-patterns">
                 {antiPatterns.map(({'anti-pattern': antiPattern, remedy}) => <div className="anti-pattern-block">
                     <div className="anti-pattern">{antiPattern}</div>
@@ -45,13 +60,26 @@ export default function Results(props){
             </div>
 
             <h2>Responsibilities</h2>
+            <h3>{resultsJson.Meta.Sections.Responsibilities}</h3>
+
             <div className="responsibilities">{Responsibilities.map(responsibility => <div className="responsibility">{responsibility}</div>)}</div>
-            {Resources ? <div>JSON.stringify(Resources)</div> : ''}
-            <Link className="next-level" to={`/results/${topic}/${nextForterLevelToEnglish}`}>NEXT LEVEL</Link>
+
+            <h2>Resources</h2>
+            <h3>{resultsJson.Meta.Sections.Resources}</h3>
+            {Resources ? <div className="resources">{Resources.map(resource => <a href={resource.link} target="_blank"><div className="resource">
+                <div className="resource-name">{resource.name}</div>
+                <div className="resource-type">View {resource.type}</div>
+            </div></a> )}</div> : ''}
+            <Link to={`/results/${topic}/${nextForterLevelToEnglish}`}><button className="next-level">NEXT LEVEL</button></Link>
         </> : <>
 
-        HORRAY! YOURE A UNICORN!
-            <img style={{"width": "142px"}} src="https://i.imgur.com/lWbAf2A.png" />
+            <div className="unicorn">
+                <img src={smashing} />
+
+                <h2>You're Smashing</h2>
+                <h3>You're an absolute unicorn, we've got nothing for you. Congrats.</h3>
+                <Link to={`/results/${topic}/${oneBeforeLastForterLevelToEnglish}`}><button className="next-level">PREVIOUS LEVEL</button></Link>
+            </div>
         </>}
     </div>
 }

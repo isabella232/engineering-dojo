@@ -1,118 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600;700;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+JP:wght@300;400;500;600;700;800&display=swap');
 
 .App {
   min-height: 100vh;
-  font-family: 'Noto Sans JP', sans-serif !important;
-}
-
-
-#stripes{
-  z-index: 1;
-  width:100%;
-  height: 800px;
-  overflow: hidden;
-  transform-origin: 0;
-  transform: skewY(-12deg);
-  background: -webkit-linear-gradient(300deg,#53f 15%,#05d5ff 70%,#a6ffcb 94%);
-  background: linear-gradient(150deg,#53f 15%,#05d5ff 70%,#a6ffcb 94%);
-
-}
-
-#stripes, #stripes span{
-  position: absolute;
-}
-
-#stripes span{
-  height: 40px;
-}
-
-#stripes :nth-child(1){
-  width: 50%;
-  left: 50%;
-  top:40px;
-  background:#4c29ff;
-}
-
-#stripes :nth-child(2){
-  width: 14%;
-  right: 0;
-  bottom:40px;
-  background: #2be7ff;
-}
-
-#stripes :nth-child(3){
-  width: 25%;
-  bottom: 0;
-  right: 0;
-  background: #a1ffc8;
-}
-
-@media (min-width:670px){
-  #stripes span{
-    height:150px;
-  }
-  #stripes :nth-child(1){
-    top: 0;
-  }
-  #stripes :nth-child(2){
-    width: 16.66667%;
-    top: 300px;
-    bottom: auto;
-    background: #0dcfff;
-  }
-  #stripes :nth-child(3){
-    width: 33.33333%;
-    right: auto;
-    background: #11bdff;
-  }
-}
-
-@media (min-width: 880px){
-  #stripes span{
-    height: 190px;
-  }
-
-  #stripes :nth-child(1){
-    width: 33.33333%;
-    left: -16.66666%;
-    background: #53f;
-  }
-
-  #stripes :nth-child(2){
-    width: 33.33333%;
-    top: 0;
-    left: 16.66666%;
-    right: auto;
-    background: #4553ff;
-  }
-
-  #stripes :nth-child(3){
-    width: 33.33333%;
-    left: 49.99999%;
-    bottom: auto;
-    background: #4f40ff;
-  }
-
-  #stripes :nth-child(4){
-    width: 33.33333%;
-    top: 380px;
-    right: -16.66666%;
-    background: #25ddf5;
-  }
-
-  #stripes :nth-child(5){
-    width: 33.33333%;
-    bottom: 0;
-    background: #1fa2ff;
-  }
+  font-family: 'Open Sans', sans-serif !important;
 }
 
 .content{
   position: absolute;
-  width: calc(100vw - 100px);
+  width: calc(100vw - 200px);
   z-index: 2;
-  padding: 50px;
+  padding: 100px;
+}
+
+.home-img{
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  margin: 40px 0 -40px;
+}
+
+.description{
+  margin: 100px 0;
+  letter-spacing: -0.5px;
 }
 
 body{
@@ -121,41 +30,44 @@ body{
 }
 
 h1{
-  font-family: 'Shippori Mincho', serif;
-  margin: 100px auto;
   font-size: 46px;
   font-weight: 800;
-  text-align: center;
   text-transform: uppercase;
   letter-spacing: -1.7px;
+  line-height: 1;
 }
 
 h1, h2{
-  color: white;
+  color: #1f2234;
+}
+
+h1 > blue{
+  color: #5496f6;
 }
 
 h2{
-  font-size: 20px;
+  font-size: 25px;
   margin: 10px 0;
 }
 
 button{
   width: max-content;
-  padding: 20px 80px;
+  padding: 20px 120px 36px;
   border-radius: 100px;
   outline: none;
-  border: none;
+  border: 5px solid black;
   font-size: 20px;
   text-transform: uppercase;
   background: rgba(255,255,255,0.3);
-  color: white;
   cursor: pointer;
   font-weight: bold;
   transition: 0.3s;
+  background: #5496f6;
+  color: white;
 }
 
 button:hover{
-  background: rgba(255,255,255,0.4);
+  filter: brightness(1.2);
 }
 
 .call-to-action{
@@ -166,14 +78,15 @@ button:hover{
   position: relative;
 }
 
-label{
+.call-to-action label{
   place-self: end start;
-  font-size: 12px;
+  font-size: 13px;
   position: absolute;
-  top: 70px;
-  left: calc(50% - 112px);
-  color: white;
+  top: 53px;
+  left: calc(50% - 124px);
   opacity: 0.9;
+  color: rgba(255,255,255,0.8);
+  pointer-events: none;
 }
 
 .card-group{
@@ -184,7 +97,7 @@ label{
 }
 
 .card{
-  box-shadow: 0px 10px 20px rgba(100, 100, 100, 0.2);
+  border: 5px solid black;
   border-radius: 8px;
   padding: 25px;
   background: white;
@@ -195,4 +108,47 @@ label{
   width: 400px;
   display: grid;
   place-items: center;
+  position: relative;
+}
+
+.moshe .card:hover:after{
+  content: '';
+  background-image: url("assets/moshe.png");
+  position: absolute;
+  width: -webkit-fill-available;
+  height: -webkit-fill-available;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.addict .card:hover:after{
+  content: '';
+  background-image: url("assets/addict.png");
+  position: absolute;
+  width: -webkit-fill-available;
+  height: -webkit-fill-available;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.forker .card:hover:after{
+  content: '';
+  background-image: url("assets/forker.png");
+  position: absolute;
+  width: -webkit-fill-available;
+  height: -webkit-fill-available;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.made-with-love{
+  margin: 60px auto -40px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.made-with-love strong{
+  font-weight: 700;
 }

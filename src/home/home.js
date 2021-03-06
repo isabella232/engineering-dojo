@@ -2,23 +2,46 @@ import {
     Link
 } from "react-router-dom";
 
+import homeImg from '../assets/home.png';
+import forker from '../assets/forker.png'
+import moshe from '../assets/moshe.png'
+import addict from '../assets/addict.png'
+
 export default function Home() {
     return <>
-        <h1>You strive to get better, right?</h1>
-        <h2>But "getting better" is so subjective. How do you even know or tell others what "better" is? So, we decided to be helpful. </h2>
-        <h2>We’re sharing here our ideas, concepts, frameworks and resources that will help you level up as a Software Engineer. </h2>
+        <h1>You <blue>strive</blue> to get better,</h1>
+        <h1>Don't you?</h1>
+        <div className="home-img"> <img src={homeImg} /> </div>
 
+        <div className="description">
+            <h2>But "getting better" is so subjective. How do you even know or tell others what "better" is? So, we decided to be helpful. </h2>
+            <h2>We’re sharing here our ideas, concepts, frameworks and resources that will help you level up as a Software Engineer. </h2>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <h2>Curious getting better?</h2>
+        </div>
         <div className="call-to-action">
-            <Link to="/questionnaire"><button> I’m ready, show me </button></Link>
+            <Link to="/questionnaire"><button> YES, SENSAI </button></Link>
             <label>all free, no emails, no BS. We’re Engineers.</label>
         </div>
 
         <h2> From the creators of other fun things </h2>
 
         <div className="card-group">
-            <div className="card"> softwareArchitectureAddict.com </div>
-            <div className="card"> Forker video </div>
-            <div className="card"> Chuckwho.com </div>
+            <a className="addict" href="https://www.softwarearchitectureaddict.com/" target="_blank">
+                <div className="card"> softwareArchitectureAddict.com </div>
+            </a>
+            <a className="forker" href="https://www.youtube.com/watch?v=uI8NDsDouig" target="_blank">
+                <div className="card"> Forker video </div>
+            </a>
+            <a className="moshe" href="http://chuckwho.com/" target="_blank">
+                <div className="card"> Chuckwho.com </div>
+            </a>
         </div>
+
+        <div className="made-with-love">Made with ❤️ by <a href="https://forter.dev/" target="_blank"><strong>Forter</strong></a></div>
     </>;
 }

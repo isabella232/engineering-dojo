@@ -14,18 +14,12 @@ import {
     Route,
     Link
 } from "react-router-dom";
+import React from "react";
 
 function App() {
   return (
       <>
           <div className="App">
-              <div id="stripes">
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-              </div>
               <div className="content">
               <Router exact path="/">
                   <div>

@@ -14,17 +14,18 @@ export default function Home() {
         <div className="home-img"> <img src={homeImg} /> </div>
 
         <div className="description">
-            <h2>But "getting better" is so subjective. How do you even know or tell others what "better" is? So, we decided to be helpful. </h2>
-            <h2>We’re sharing here our ideas, concepts, frameworks and resources that will help you level up as a Software Engineer. </h2>
+            <h2>But "getting better" is so subjective. How do you even know what "better" is? How do you explain it to others? </h2>
+            <h2>So, we decided to be helpful. </h2>
+            <h2>We’re sharing our ideas, concepts, frameworks and resources that will help you level up as a Software Engineer. </h2>
             <br />
             <br />
             <br />
             <br />
             <br />
-            <h2>Curious getting better?</h2>
+            <h2>Want to improve?</h2>
         </div>
         <div className="call-to-action">
-            <Link to="/questionnaire"><button> YES, SENSAI </button></Link>
+            <Link to="/questionnaire"><button> YES, SENSEI! </button></Link>
             <label>all free, no emails, no BS. We’re Engineers.</label>
         </div>
 

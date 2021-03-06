@@ -10,7 +10,7 @@
     margin: 0 auto;
     background: #fff;
     border-radius: 18px;
-    padding: 10px;
+    padding: 10px 0;
     border: 5px solid black;
 }
 
@@ -57,11 +57,11 @@
 
 /* AnswerOption Component */
 .answerOption {
-    border-top: 1px solid #eee;
+    border-top: 1px solid #f8f9fa;
 }
 
 .answerOption:hover {
-    background-color: #eefbfe;
+    background-color: #e7f5ff;
 }
 
 .radioCustomButton {
@@ -79,7 +79,7 @@
 
 .radioCustomLabel {
     position: relative;
-    width: 100%;
+    width: calc(100% - 120px);
     margin: 0;
     padding: 1.5rem 2.5rem 1.5rem 5rem;
     font-size: 16px;
@@ -106,9 +106,9 @@
 
 .radioCustomButton:checked ~ .radioCustomLabel:before {
     content: '';
-    background: #8bc53f url('../assets/icon-check.svg') no-repeat;
+    background: #37b24d url('../assets/icon-check.svg') no-repeat;
     background-size: 27px;
-    border-color: #8bc53f;
+    border-color: #37b24d;
 }
 
 /* Animation */

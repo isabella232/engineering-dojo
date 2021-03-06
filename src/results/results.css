@@ -14,6 +14,7 @@ gray{
 
 .results h3{
     font-weight: 600;
+    color: #868e96;
 }
 
 .introduction{
@@ -51,18 +52,18 @@ gray{
 }
 
 .resources{
-    grid-auto-flow: column;
-    gap: 20px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
 }
 
 .resource{
+    height: calc(100% - 30px);
     display: grid;
-    grid-auto-flow: column;
-    grid-template-rows: 25px 25px;
 }
 
 .resource-name{
-    font-size: 20px;
+    font-size: 19px;
     text-align: center;
     font-weight: 600;
 }

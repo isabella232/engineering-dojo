@@ -197,14 +197,14 @@ button:hover{
 
 @media only screen and (max-width: 600px) {
   .content {
-    padding: 15px 10px 0;
+    padding: 15px 10px;
     width: calc(100vw - 20px);
   }
   .introduction span{
     margin-bottom: 10px !important;
   }
   .made-with-love{
-    margin-bottom: 50px;
+    margin-bottom: 35px;
   }
 }
 

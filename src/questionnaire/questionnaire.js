@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import {quizQuestions, ROLES} from './quizQuestions';
+import { quizQuestions, ROLES } from './quizQuestions';
 
 import Quiz from '../components/Quiz';
 import Result from '../components/Result';
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
-export class Questionnaire extends Component{
+export class Questionnaire extends Component {
     constructor(props) {
         super(props);
 
@@ -90,24 +90,24 @@ export class Questionnaire extends Component{
         const rolesChosen = Object.keys(answersCount)
 
         const allEqual = Object.keys(answersCount).length === 1;
-        if (allEqual){
+        if (allEqual) {
             const roleChosen = Object.keys(answersCount)[0];
-            if (roleChosen === ROLES.ENTRY){
+            if (roleChosen === ROLES.ENTRY) {
                 return ROLES.ENTRY;
             }
         }
 
-        if (rolesChosen.length === 2 && rolesChosen.includes(ROLES.ENTRY)  && rolesChosen.includes(ROLES.NORMAL)){
+        if (rolesChosen.length === 2 && rolesChosen.includes(ROLES.ENTRY) && rolesChosen.includes(ROLES.NORMAL)) {
             return ROLES.NORMAL;
         }
 
         const notAChild = rolesChosen.every(role => ![ROLES.ENTRY, ROLES.NORMAL].includes(role));
-        if (notAChild){
+        if (notAChild) {
             return ROLES.STAFF;
         }
 
         const superUnChild = rolesChosen.every(role => ![ROLES.ENTRY, ROLES.NORMAL, ROLES.SENIOR].includes(role));
-        if (superUnChild){
+        if (superUnChild) {
             return ROLES.PRINCIPAL;
         }
 
@@ -139,7 +139,7 @@ export class Questionnaire extends Component{
     render() {
         return (
             <div className="quiz">
-                <h1><Link to="/"> Home </Link> <gray>/</gray> Quiz</h1>
+                <h1><Link to="/"> Home </Link> <gray>/</gray> Getting To Know You</h1>
                 <div className="questionnaire">
                     <div className="questionnaire-group" />
                     {this.state.result ? this.renderResult() : this.renderQuiz()}

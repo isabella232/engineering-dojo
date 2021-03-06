@@ -3,17 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="6c4df50e-4968-41cc-9716-729e0f40ed05" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/main.3690e814.chunk.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/main.3690e814.chunk.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.2ec625f7.chunk.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/static/js/main.2ec625f7.chunk.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.2ec625f7.chunk.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/static/js/main.2ec625f7.chunk.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ladder/career_ladder.json" beforeDir="false" afterPath="$PROJECT_DIR$/ladder/career_ladder.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ladder/career_ladder.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ladder/career_ladder.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/questionnaire/questionnaire.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/questionnaire/questionnaire.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/questionnaire/quizQuestions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/questionnaire/quizQuestions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/results/career_ladder.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/results/career_ladder.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/results/results.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/results/results.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +84,7 @@
       <workItem from="1614684015835" duration="25000" />
       <workItem from="1614684046234" duration="12593000" />
       <workItem from="1614763835047" duration="2214000" />
-      <workItem from="1615035252483" duration="10428000" />
+      <workItem from="1615035252483" duration="10496000" />
     </task>
     <servers />
   </component>

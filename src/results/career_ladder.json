@@ -3,23 +3,28 @@
     "Dans": {
       "Dan 1": {
         "name": "Entry Level Engineer",
-        "impact": "self"
+        "impact": "self",
+        "aka": "Junior Engineer"
       },
       "Dan 2": {
         "name": "Software Engineer",
-        "impact": "team"
+        "impact": "team",
+        "aka": ""
       },
       "Dan 3": {
         "name": "Senior Software Engineer",
-        "impact": "team"
+        "impact": "team",
+        "aka": "Tech Lead"
       },
       "Dan 4": {
         "name": "Staff Software Engineer",
-        "impact": "teams"
+        "impact": "teams",
+        "aka": "Domain Owner"
       },
       "Dan 5": {
         "name": "Principal Software Engineer",
-        "impact": "group/groups/company"
+        "impact": "group/groups/company",
+        "aka": "System Architect"
       }
     },
     "Sections": {
